@@ -158,3 +158,29 @@ margin-top: 15px;
 .select-cinema{
     min-width: 470px;
 }
+.scheme{
+    margin-bottom: 40px;
+    background: rgba(36, 36, 36, 0.18);
+border-radius: 10px;
+}
+.scheme path:not(.light){
+    fill: rgba(255, 255, 255, 0.2);
+}
+.scheme path:not(.light):hover{
+    fill: rgba(255, 255, 255, 0.5);
+cursor: pointer;
+}
+.scheme path.booked,
+.scheme path.booked:hover{
+    fill: rgba(255, 255, 255, 0.05);
+    cursor: not-allowed;
+}
+.legend{
+    display: flex;
+    align-items: center;
+}
+.legend-label{
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
